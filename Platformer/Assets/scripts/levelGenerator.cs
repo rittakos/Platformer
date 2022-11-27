@@ -121,5 +121,7 @@ public class LevelGenerator : MonoBehaviour
 
 
         smartEnemy.transform.position = new (mapWidth / 2, 3);
+
+        //GameObject newMover = Instantiate(moverEnemy);
     }
 }
