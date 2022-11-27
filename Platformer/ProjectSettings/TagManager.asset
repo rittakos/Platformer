@@ -3,12 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Win
+  - Border
+  - Level
+  - Goal
+  - Ground
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
@@ -38,6 +44,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: background
+    uniqueID: 3912120581
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: player
+    uniqueID: 2743413741
     locked: 0
